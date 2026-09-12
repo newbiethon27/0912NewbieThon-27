@@ -45,6 +45,10 @@ npm install
 npm run dev
 ```
 
+> `.env.local` 없이도 `npm install` · `npm test` · `npm run build`는 모두 통과한다.
+> 다만 로그인과 데이터 저장에는 Supabase 연결이 필요하므로, 위 1~2번을 마치기 전에는
+> 앱이 "Supabase 설정이 필요합니다" 안내 화면을 띄운다.
+
 ---
 
 ## 명령어
